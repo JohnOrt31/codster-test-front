@@ -14,9 +14,5 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "no-inline-html" : 
-      "allowed_elements" : [ "a", "h1", "h3", "HR", "p" ],
-    "MD033": {
-    "allowed_elements" : [ "a", "h1", "h3", "HR", "p" ]
-    },
-,}
+  }
+};
